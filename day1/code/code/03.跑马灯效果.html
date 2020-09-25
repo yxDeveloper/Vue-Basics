@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-18 01:05:35
- * @LastEditTime: 2020-09-25 21:34:21
+ * @LastEditTime: 2020-09-25 21:35:14
  * @LastEditors: Please set LastEditors
  * @Description: 跑马灯demo
  * @FilePath: \vue基础\Vue-Basics\day1\code\code\03.跑马灯效果.html
@@ -38,6 +38,7 @@
         intervalId: null  //在data上定义 定时器 ID
       },
       methods: {
+        // 不能用箭头函数
         lang() {
           if(this.intervalId != null) return
 
