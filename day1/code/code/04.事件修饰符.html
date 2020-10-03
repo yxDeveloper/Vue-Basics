@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-18 01:05:35
- * @LastEditTime: 2020-10-02 18:33:01
+ * @LastEditTime: 2020-10-02 18:38:21
  * @LastEditors: Please set LastEditors
  * @Description: v-on: @ .stop .prevent .capture .self .once 
  * @FilePath: \vue基础\Vue-Basics\day1\code\code\04.事件修饰符.html
@@ -15,6 +15,11 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div id="app">
+
+    <!-- 使用 .stop 阻止冒泡 -->
+    <div class="inner" @click="div1Handler"></div>
+    <input type="button" value="戳他" @click.stop = "btnHandler">
+  </div>
 </body>
 </html>
