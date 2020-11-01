@@ -1,4 +1,4 @@
-## Vue.js - Day1
+# Vue.js - Day1
 
 ## 课程介绍
 前5天： 都在学习Vue基本的语法和概念；打包工具 Webpack , Gulp
