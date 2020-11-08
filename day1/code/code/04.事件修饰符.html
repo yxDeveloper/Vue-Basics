@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-18 01:05:35
- * @LastEditTime: 2020-11-03 22:01:49
+ * @LastEditTime: 2020-11-08 21:57:46
  * @LastEditors: Please set LastEditors
  * @Description: v-on: @ .stop .prevent .capture .self .once 
  * @FilePath: \vue基础\Vue-Basics\day1\code\code\04.事件修饰符.html
@@ -22,7 +22,8 @@
     <input type="button" value="戳他" @click.stop = "btnHandler">
     </div> -->
 
-    <!-- 使用 .prevent -->
+    <!-- 使用 .prevent 阻止默认行为 -->
+    <a href="http://www.baidu.como" @click.prevent="linkClick">有问题</a>
   </div>
   <script>
     let vm = new Vue({
